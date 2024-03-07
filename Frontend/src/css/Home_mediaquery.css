@@ -1,0 +1,265 @@
+/* Add this media query for responsiveness */
+
+@media (max-width: 768px) {
+
+    
+
+    /* ////////////////////              /////////////////// */
+    
+    
+    .scoll_images {
+    
+        width: 100%;
+        height: 300px;
+        scroll-behavior: left;
+        animation-name: an1;
+        background-position: center;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        background-repeat: no-repeat;
+        background-repeat:initial;
+        box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+        background-image: url(/public/images/scrollPages3.jpg) no-repeat ;
+        overflow: hidden;
+          
+          
+    }
+    
+    @keyframes an1 {
+        0% {
+            background-image: url(/public/images/scrollPages3.jpg);
+        }
+    
+        0% {
+            background-image: url(/public/images/scrollPages3.jpg);
+        }
+    
+        25% {
+            background-image: url(/public/images/scrollPages1.jpg);
+        }
+    
+        30% {
+            background-image: url(/public/images/scrollPages1.jpg);
+        }
+    
+        70% {
+            background-image: url(/public/images/scrollPages2.jpg);
+        }
+    
+        75% {
+            background-image: url(/public/images/scrollPages2.jpg);
+        }
+    }
+    
+    /* ////////////////  best seller ////////// */
+    
+    
+    .best_seller {
+        width: 100%;
+
+        border: 2px solid black;
+     }
+     #Best_seller_heading{
+        
+        font-size: 35px;
+        font-weight: 600;
+     }
+     .grid_use{
+        display: block;
+        grid-template-columns: 80%  ;
+     }
+     .grid_use a{
+        margin:0px;
+        padding: 0px;
+     }
+     .best_mobile_box{
+        /* border: 2px solid black; */
+        width: 70%;
+        height: 70%;
+        margin: 4% auto;
+        box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    
+     }
+     .best_mobile_box div{
+        width: 100%;
+        height: 80%;
+        
+     }
+     .best_mobile_box img{
+        width: 100%;
+        height: 100%;
+     }
+     .grid_use a div p{
+        font-size: 30px;
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        margin: 0px;
+     }
+    
+    /* .best_seller {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(225, 241, 241);
+        border: 2px solid black;
+        overflow: hidden;
+    } */
+    /*
+    #heading{
+      
+         font-size: 30px;
+         font-weight: bold;
+         
+    }
+    
+    .grid_use{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 6%;
+        margin-top: 20px;
+        
+    }
+    
+    
+    #item_1 {
+        width: 190px;
+        height: 248px;
+        margin-left: -10px;
+        background-color: azure;
+        /* box-shadow: 2px 4px 4px black; 
+        box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    
+    }
+    
+    
+    
+    #item_1 img {
+        width: 200px;
+        height: 250px;
+        margin-left: -5px;
+        margin-top: -10px;
+    
+    
+    }
+    
+    #item_1 p{
+       font-size: 18px;
+       width: 200px;
+       font-weight: bold;
+       margin-top: -45px;
+       margin-left: 50px;
+       color: black;
+       list-style-type: none;
+    }
+    
+    #item_2 {
+        width: 200px;
+        height: 248px;
+        background-color: azure;
+        box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+     display: none;
+    }
+    
+    #item_2 img {
+        width: 200px;
+        height: 250px;
+        margin-left: 1px;
+        margin-top: -10px;
+    
+    }
+    
+    #item_2 p{
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        margin-top: -20px;
+        margin-left: 70px;
+        color: black;
+        list-style-type: none;
+    
+    }
+    
+    #item_3 {
+        width: 180px;
+        height: 248px;
+        margin-left: -10px;
+        background-color: azure;
+        box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    
+    }
+    
+    #item_3 img {
+      width: 190px;
+        height: 190px;
+        margin-left: -8px;
+        margin-top: 10px;
+        
+    }
+    
+    #item_3 p {
+        font-size: 18px;
+        width: 200px;
+        font-weight: bold;
+        margin-top: -10px;
+        margin-left: 50px;
+        color: black;
+    } */
+    
+    /*//////////////// offer////////////// */
+    
+    .Offer {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+    
+    .Offer img {
+        width: 100%;
+        margin-top: 40px;
+        /* margin-left: 60px; */
+        
+    }
+    /* ///////////////////  realme shop by brand /////////// */
+ 
+.shop_brand_name{
+    display: flex;
+    justify-content: center;
+}
+.shop_brand_name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.shop_brand_name_2{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px 5px;
+}
+.shop_brand_name_2 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.grid_section{
+    display: block;
+    /* justify-content: center; */
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+.realme_main_div{
+    box-sizing: border-box;
+    margin: 20px auto;
+    /* height: 100%; */
+    width: 60%;
+}
+
+
+      /* ///////////////  POCO  ///////////////// */
+    
+    
+
+    
+        
+    
+    }

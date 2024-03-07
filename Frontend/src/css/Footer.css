@@ -1,0 +1,95 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black; /* Dark blue background color */
+    color: #fff; /* Text color */
+    padding: 30px;
+
+  }
+  
+  .footer-section {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    color: #f0f0f0; /* Heading color */
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc; /* Link color */
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff; /* Hover color */
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #ccc; /* Icon color */
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #fff; /* Hover color */
+  }
+  
+  .input-field {
+    width: calc(100% - 46px); /* Adjusted to accommodate the button */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #34495e; /* Dark blue input field background color */
+    color: #fff; /* Input field text color */
+  }
+  
+  .link-button {
+    background-color: #3498db; /* Light blue button background color */
+    color: #fff; /* Button text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .link-button:hover {
+    background-color: #2980b9; /* Darker blue button hover background color */
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    color: #ccc; /* Copyright text color */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      width: 50%;
+    }
+  
+    .input-field {
+      width: calc(100% - 20px);
+    }
+  }
+.footer-section ul li 
+{
+    list-style-type: none;
+}

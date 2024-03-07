@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.main-body{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin: 5px;
+}
+.main-pages {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 2%;
+    height: auto;
+}
+.userimg-name {
+    border-bottom: 1px solid white;
+    /* margin: auto; */
+}
+.userimg-name div{
+    display: flex;
+    justify-content: center;
+}
+.allpages {
+    margin-top: 10px;
+}
+
+.orders a{
+    display: flex;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.orders img {
+   
+    margin-top: -20px;
+}
+
+.orders p {
+    margin-top: 13px;
+
+}
+
+.userimg {
+    height: 70px;
+    width: 70px;
+}
+
+
+.herry {
+    text-align: center;
+    color: white;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+.allpages {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.allpages img {
+    height: 30px;
+    width: 30px;
+    margin: 6px;
+}
+
+.mainaddress-page{
+    width: 60%;
+    margin: 0px auto;
+}
+@media(max-width:730px){
+    .mainaddress-page{
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+.address-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+    /* margin: auto; */
+    
+}
+.address-page img{
+    height: 30px;
+    width: 40px;
+}
+.address-page p{
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-left: 15px; */
+    
+}
+.detail-page{
+    background-color:lightgray;
+    border: 2px solid black;
+    box-shadow:1px 1px 4px 4px black;
+    
+    width: 100%;
+    
+}
+.detail-page h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    margin: 15px;
+    margin-left: 200px;
+    
+}
+
+.address-form{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 60%;
+    margin-left: 90px;
+    margin-top: 30px;
+    
+}
+.form1-div{
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    padding: 10px;  
+}
+.form1-div input{
+    padding: 0px 20px;
+}
+.form2-div{
+    padding: 10px;  
+}
+.form2-div input{
+   height: 30px;
+    padding: 0px 20px;
+}
+.form3-div{
+    padding: 10px;
+}
+.form3-div input{
+    height: 30px;
+    padding: 0px 20px;
+}
+.address{
+    font-size: 20px;
+    color: blue;
+    margin-left: 15%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.address-type{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.address-type div input{
+    color: blue;
+}
+.stauts{
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.save-address{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    background-color: blue;
+    text-align: center;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.cancle-address{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+@media (max-width: 730px) 
+{
+   .main-body{
+    margin: 0px;
+   }
+    .main-pages {
+        display: none;
+    }
+    .detail-page{
+        border: 1px solid black;
+        background-color:lightgray;
+        height: 85%;
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 70px;
+    }
+    .address-page{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        
+    }
+    .address-page img{
+        height: 50px;
+        width: 50px;
+        /* margin-left: 100px; */
+    }
+    .address-page p{
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    .detail-page h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        margin: 15px;
+        margin-left: 80px;  
+    }
+    .detail-page{
+        border: 1px solid black;
+        background-color:lightgray;
+        height: auto;
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+    .address-form{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -1%;
+        
+    }
+    .form1-div {
+        box-sizing: border-box;
+        display: block;
+        height: auto;
+        margin-top: -15px;
+    }
+    .form1-div input{
+        margin-top: 20px;
+        width: 100%;
+        height: 55px;
+    }
+    .form2-div {
+        box-sizing: border-box;
+        display: block;
+        height: auto;
+        /* width: 100%; */
+        margin-top: 10px;
+        padding: 0px;
+        margin-left: 2%;
+    }
+    .form2-div input{
+        height: 50px;
+        width: 97%;
+        padding: 0px 20px;
+    }
+    .form3-div {
+        box-sizing: border-box;
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .form3-div input{
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
+    }
+        
+    
+    .save-address{
+        border: 1px solid black;
+        width: 30%;
+        height: 15%;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: blue;
+        text-align: center;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        padding: 5px;
+        
+    }
+    .cancle-address{
+        border: 1px solid black;
+        width: 30%;
+        height: 15%;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        text-align: center;
+        margin-left: 0px;
+        margin-left: 15px;
+        padding: 5px;
+
+    }
+    .stauts{
+        display: flex;
+        margin-right: 60px;
+        width: 100%;
+        
+    }
+    
+}

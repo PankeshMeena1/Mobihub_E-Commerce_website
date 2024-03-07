@@ -1,0 +1,119 @@
+/* styles.css */
+.best-sellers {
+    text-align: center;
+  }
+.best-sellers h2
+{
+  font-size: 40px;
+}
+  .mobiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Always display three columns */
+    grid-gap: 20px; /* Gap between grid items */
+  }
+  
+  .mobile-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .mobile-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .mobile-item button.view-more {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-item button.view-more:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mobile-item button.hide-button {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-item button.hide-button:hover {
+    background-color: #c82333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .view-more {
+    background-color: #007bff;
+    border-radius: 30px; /* Added border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px 24px;
+    border: none;
+    box-shadow: 1px 1px 13px 2px blue;
+    font-weight: bold;
+  }
+  
+  .view-more:hover {
+    background-color: #0056b3;
+  }
+  
+  .hide-button {
+    background-color: #dc3545;
+    border-radius: 8px; /* Added border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px; 
+    box-shadow: 1px 1px 13px 2px blue;
+    font-weight: bold;
+  }
+  
+  .hide-button:hover {
+    background-color: #c82333;
+  }
+
+  @media(max-width:749px)
+  {
+    .mobiles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Always display three columns */
+      grid-gap: 20px; /* Gap between grid items */
+    }
+  }
+  @media(max-width:557px)
+  {
+    .mobiles {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Always display three columns */
+      grid-gap: 20px; /* Gap between grid items */
+    }
+  }
+  @media(max-width:370px)
+  {
+    .mobiles {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* Always display three columns */
+      grid-gap: 20px; /* Gap between grid items */
+    }
+  }

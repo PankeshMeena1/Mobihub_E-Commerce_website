@@ -1,0 +1,72 @@
+/* COD.css */
+
+.cod-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cod-container h2 {
+  color: #333;
+}
+
+.cod-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cod-input,
+.cod-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cod-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cod-button:hover {
+  background-color: #2980b9;
+}
+
+.cod-link-button {
+  margin-top: 15px;
+}
+
+.cod-link-button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #27ae60;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.cod-link-button a:hover {
+  background-color: #219653;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .cod-container {
+    padding: 10px;
+  }
+
+  .cod-input,
+  .cod-textarea {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #eeeded;
+    box-shadow: 1px 3px 5px 6px rgb(225, 225, 223);
+}
+
+.image {
+    width: 40%;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.form {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group input:hover {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px 1px red;
+}
+
+.checkbox {
+    margin-bottom: 15px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f98d5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1c7eaf;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image,
+    .form {
+        width: 100%;
+    }
+
+    .image {
+        order: 2;
+    }
+
+    .form {
+        order: 1;
+    }
+}
+
+.or-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 45%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or {
+    margin: 0 10px;
+    color: #999;
+}
+
+.google-login {
+    text-align: center;
+}
+
+.google-login-btn {
+    width: 100%;
+    background-color: #DB4437; /* Google red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* New styles for .register-now */
+.register-now p {
+    font-size: 16px; /* Base font size */
+}
+
+.register-now a {
+    font-size: 1.2em;
+    color: #007bff; /* Adjust color as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+.register-now a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

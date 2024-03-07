@@ -1,0 +1,5 @@
+.main_product_card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 1%;
+}

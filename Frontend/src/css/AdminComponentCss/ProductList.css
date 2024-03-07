@@ -1,0 +1,51 @@
+/* ProductList.css */
+
+.product-list-container1 {
+  margin: 20px;
+}
+
+.product-list-container1 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-table1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table1 th, .product-table1 td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table1 th {
+  background-color: #f2f2f2;
+}
+
+.product-image1 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.edit-btn1, .delete-btn1 {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* You can customize the button styles further based on your design preferences */
+
+.edit-btn1 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.delete-btn1 {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}

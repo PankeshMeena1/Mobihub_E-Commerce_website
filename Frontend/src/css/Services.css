@@ -1,0 +1,183 @@
+.secure {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .protect-container {
+    padding: 20px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .custom-content {
+    text-align: center; /* Center the content horizontally */
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+  }
+  
+  .custom-content h2 {
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  .custom-content h2 span {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+  }
+  
+  .custom-content p {
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .logo {
+    margin-top: 20px;
+  }
+  
+  /* Optional: To adjust the grid layout on smaller screens */
+
+  .our-services {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .our-services h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .our-services p {
+    font-size: 16px;
+  }
+  
+  .protect-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .custom-content {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .custom-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-content h2 span {
+    margin-left: 5px;
+  }
+  
+  .custom-content p {
+    font-size: 14px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-services {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.protect-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.custom-content {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.custom-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.custom-content h2 span {
+  margin-left: 5px;
+}
+
+.custom-content p {
+  font-size: 14px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px; /* Increase the size of the logo */
+}
+.our-services {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .protect-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .custom-content {
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for shadow */
+  }
+  
+  .custom-content:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
+  .custom-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-content h2 span {
+    margin-left: 5px;
+  }
+  
+  .custom-content p {
+    font-size: 14px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px; /* Increase the size of the logo */
+    transition: color 0.3s ease; /* Add transition for color */
+  }
+  
+  .logo-container:hover {
+    color: #ff5722; /* Change color on hover */
+  }
+  .custom-content div {
+    margin-bottom: 40px; /* Add margin between div and its sibling elements */
+  }
+  .custom-content div h2 {
+    font-size: 20px; /* Increase font size of h2 */
+  }
+  
+  .custom-content div p {
+    font-size: 16px; /* Increase font size of p */
+  }
+  
+  @media (max-width: 671px) {
+    .protect-container {
+      grid-template-columns: repeat(1, 1fr); /* 2 columns on smaller screens */
+    }
+  }

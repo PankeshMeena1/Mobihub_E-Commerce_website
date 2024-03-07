@@ -1,0 +1,241 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.first_Box {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.first_Box_first {
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+
+}
+
+.first_box1 {
+  height: auto;
+  padding-bottom: 20%;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.94);
+  ;
+}
+
+#first_h1 {
+  color: #FFF;
+  font-family: Inknut Antiqua;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Filter_box {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  margin-top: 30px;
+}
+
+.Filter_box1_diff {
+  display: flex;
+}
+
+.Filter_box1_diff h3 {
+  color: #FFF;
+  font-family: Inika;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+#only_box {
+  width: 25px;
+  height: 25px;
+  background: #D9D9D9;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.Filter_box h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.Filter_box h5 {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.first_Box_Sec {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.Sec_box1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  width: 90%;
+  height: 30px;
+  margin-left: 20px;
+  background: #D9D9D9;
+}
+
+#serch_bar_div {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#serch_bar_div input{
+  font-family: Inter;
+  font-size: 18px;
+  color: #000;
+  margin-left: 0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 30px;
+  border: none;
+  padding: 1%;
+  width: 100%;
+  background: #D9D9D9;;
+}
+
+#search_blue {
+  display: flex;
+  width: 218px;
+  flex-shrink: 0;
+  background: blue;
+}
+.filter_mobi{
+  display: none;
+}
+
+#search_icon i {
+  width: 20px;
+  margin-top: 5px;
+  height: 25px;
+  flex-shrink: 0;
+  margin-left: 15px;
+  color: #FFF;
+}
+
+#search_text {
+  color: #FFF;
+  font-family: Inika;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3px;
+}
+
+.Sec_box2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  width: 90%;
+  height: 140px;
+  margin-left: 20px;
+  background: #D9D9D9;
+  border: 1px solid black;
+}
+
+.mobile_box {
+  width: 20%;
+  margin-right: 820px;
+}
+
+.mobile_box img {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  margin-right: 20px;
+
+}
+
+.mobile_box_detail {
+  width: 50%;
+  margin-left: -800px;
+
+}
+
+.mobile_box_detail h3 {
+  color: #000;
+  font-family: Inika;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.mobile_box_detail h4 {
+  color: #000;
+  font-family: Inika;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mobile_box_detail h5 {
+  color: #000;
+  font-family: Inika;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mobile_box_deleverd {
+  margin-left: 130px;
+  width: 35%;
+}
+
+.mobile_box_deleverd div {
+
+  display: flex;
+  width: 200px;
+  margin-left: 25px;
+}
+
+.mobile_box_deleverd div div {
+  width: 15px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #11ED0D;
+  margin-top: 10px;
+
+}
+
+.mobile_box_deleverd div h2 {
+  color: #000;
+  font-family: Inika;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.mobile_box_deleverd h3 {
+  color: #000;
+  font-family: Inika;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,74 @@
+/* CreditCard.css */
+
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+} */
+
+.credit-card-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.credit-card-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.credit-card-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-card-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.credit-card-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.credit-card-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.credit-card-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.credit-card-button:hover {
+  background-color: #2980b9;
+}
+
+.credit-card-link-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.credit-card-link-button a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}

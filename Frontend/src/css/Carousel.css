@@ -1,0 +1,71 @@
+/* Carousel.css */
+
+/* Carousel.css */
+
+.carousel-container {
+  position: relative;
+  width: 80%; /* Adjust the width as desired */
+   /* Adjust the height as desired */
+  margin: auto; /* Center the carousel */
+  overflow: hidden;
+}
+
+/* Rest of the CSS remains the same */
+
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease; /* Add transition for smooth sliding */
+  height: 100%;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  color: #fff; /* Set the default color */
+font-size: 20px; /* Adjust the font size as desired */
+transition: color 0.3s ease;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+/* Carousel.css */
+
+.carousel-container {
+  position: relative;
+  width: 100%; /* Adjust the width as desired */
+  height: 660px; /* Adjust the height as desired */
+  margin: auto; /* Center the carousel */
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease; /* Add transition for smooth sliding */
+}
+
+.slide {
+  flex: 0 0 100%; /* Ensure only one slide is visible at a time */
+  height: 100%; /* Match the height of the carousel container */
+}
+
+/* Rest of your CSS */
+.arrow:hover {
+  color: #ff4500; /* Change the color on hover */
+}

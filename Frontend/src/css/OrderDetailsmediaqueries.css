@@ -1,0 +1,132 @@
+@media(max-width: 768px) {
+  /* Add styles for smaller screens here */
+  .first_Box {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .first_Box_first,
+  .first_box1,
+  .Sec_box1,
+  .Sec_box2 {
+    width: 100%;
+    max-width: none;
+  }
+  .first_Box_first{
+    display: none;
+  }
+
+  .mobile_box,
+  .mobile_box_detail,
+  .mobile_box_deleverd {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .mobile_box_detail
+  {
+    display: none;
+  }
+  .mobile_box_deleverd
+  {
+    width: 60%;
+    margin-left: 0px;
+  }
+  .mobile_box_deleverd div {
+
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .mobile_box_deleverd div div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #11ED0D;
+    margin-left: 0px;
+  
+  }
+  
+  .mobile_box_deleverd div h2 {
+    color: #000;
+    font-family: Inika;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+  }
+  
+  .mobile_box_deleverd h3 {
+    color: #000;
+    font-family: Inika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10%;
+  }
+  #search_blue
+  {
+    display: none;
+  }
+  .Sec_box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    background: #D9D9D9;
+    margin-left: 0px;
+   
+  }
+  .Sec_box2
+  {
+    margin-left: 0px;
+  }
+  #serch_bar_div
+  {
+     display: flex
+  }
+  #serch_bar_div input
+  {
+      height: 100%;
+  }
+  #serch_bar
+  {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  #serch_bar_div i{
+    display: block;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .filter_mobi{
+    display: block;
+    display: flex;
+    background-color: white;
+   
+  }
+  .filter_mobi i{
+      font-size: 34px;
+      margin-right: 15px;
+     
+  }
+  .filter_mobi h2{
+      font-size: 30px;
+      margin-right: 7px;
+  }
+  #serch_blue
+  {
+    display: none;
+  }
+  .mobile_box{
+    width: 40%;
+  }
+
+}

@@ -1,0 +1,25 @@
+.mimob {
+    position: relative;
+    display: inline-block;
+  }
+  .mimob img
+  {
+    width: 100%;
+  }
+  .buy-now-btn {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color:black; /* Change the background color */
+    color: #fff; /* Change the text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  

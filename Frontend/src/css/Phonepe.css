@@ -1,0 +1,70 @@
+/* Phonepe.css */
+
+.phonepe-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phonepe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.phonepe-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* Ensure padding doesn't add to the width */
+}
+
+.phonepe-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.phonepe-button:hover {
+  background-color: #2980b9;
+}
+
+.phonepe-link-button {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.phonepe-link-button a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.phonepe-link-button a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .phonepe-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .phonepe-input {
+    padding: 8px;
+  }
+
+  .phonepe-button {
+    padding: 8px;
+  }
+}

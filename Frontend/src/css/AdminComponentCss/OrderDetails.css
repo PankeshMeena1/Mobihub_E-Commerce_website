@@ -1,0 +1,46 @@
+
+.top_div_order{
+  display: flex;
+  margin-bottom: 30px;
+}
+.All_orders_detail_admin{
+  width: 100%;
+  margin: 10px 10px;
+}
+.All_orders_detail_admin h1{
+  border-bottom: 1px solid black;
+}
+.nav_order_detail{
+
+  display: grid;
+  grid-template-columns: 10% 25% 25% 20% 20%;
+  border-bottom: 1px solid black;
+}
+
+
+.All_order_detail_info{
+  display: grid;
+  grid-template-columns: 10% 25% 25% 20% 20%;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+
+
+
+@media(max-width:768px){
+  .top_div_order{
+      display: block;
+  }
+  .nav_order_detail h5{
+      font-size: 15px;
+  }
+  .All_order_detail_info div{
+      font-size: 13px;
+  }
+  .All_order_detail_info{
+      display: grid;
+      grid-template-columns: 10% 25% 25% 20% 15%;
+      border-bottom: 1px solid black;
+      padding: 10px 0px;
+  }
+}

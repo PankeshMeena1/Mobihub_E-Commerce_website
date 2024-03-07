@@ -1,0 +1,172 @@
+/* //////////////////////  scoll_images ////////////////// */
+
+.scoll_images {
+
+    width: 100%;
+    height: 500px;
+    scroll-behavior: left;
+    animation-name: an1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    background-image: url(/public/images/scrollPages3.jpg);
+}
+
+@keyframes an1 {
+    0% {
+        background-image: url(/public/images/scrollPages3.jpg);
+    }
+
+    0% {
+        background-image: url(/public/images/scrollPages3.jpg);
+    }
+
+    25% {
+        background-image: url(/public/images/scrollPages1.jpg);
+    }
+
+    30% {
+        background-image: url(/public/images/scrollPages1.jpg);
+    }
+
+    70% {
+        background-image: url(/public/images/scrollPages2.jpg);
+    }
+
+    75% {
+        background-image: url(/public/images/scrollPages2.jpg);
+    }
+}
+
+
+/*    //////////////////    best Sellers ///////////// //////////// */
+
+
+.best_seller {
+    width: 100%;
+
+    /* border: 2px solid black; */
+    overflow: hidden;
+    /* padding-bottom: 10px; */
+ }
+ #Best_seller_heading{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+ }
+ .grid_use{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 30% 30% 30%;
+ }
+ .best_mobile_box{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    padding-bottom: 20px;
+ }
+ .best_mobile_box div{
+    width: 100%;
+    height: 80%;
+ }
+ .best_mobile_box img{
+    width: 100%;
+    height: 100%;
+ }
+ .grid_use a div p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin: 0px;
+ }
+ /*  ------------- offer banner ------------ */
+ .Offer_banner{
+    width: 100%;
+ }
+ .Offer_banner img{
+    width: 100%;
+ }
+
+/* ///////////////  Shop By Brand ///////////////// */
+
+.shop_brand_name{
+    display: flex;
+    justify-content: center;
+}
+.shop_brand_name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.shop_brand_name_2{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px 5px;
+}
+.shop_brand_name_2 span{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.grid_section{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+.realme_main_div{
+    box-sizing: border-box;
+    height: 100%;
+    width: 20%;
+}
+.main_realme_img{
+    height: 80%;
+}
+.main_main_img_detail{
+    height: 20%;
+}
+.main_main_img_detail p{
+    display: flex;
+    justify-content: center;
+}
+
+.realme_main_div img{
+    width: 100%;
+    height: 100%;
+}
+.realme_1_img img{
+    width:100%;
+}
+
+
+
+
+/* /////////////////// POCO SECTION //////////////// */
+
+
+.Poco_brand_name{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.Poco_brand_name span{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
