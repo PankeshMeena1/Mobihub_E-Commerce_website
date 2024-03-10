@@ -39,7 +39,7 @@ const Registration = () => {
                   });
             }
           })
-          .then(useNavi("/loginpage")).catch(err=>{console.log("error :",err)}).then(useNavi("/loginpage"))
+          .then().catch(err=>{console.log("error :",err)}).then(useNavi("/loginpage"))
   }
   
 
